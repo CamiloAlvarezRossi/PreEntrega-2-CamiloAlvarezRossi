@@ -77,7 +77,7 @@ header{
     z-index: 2;
 }
 #footer{
-    display: flex;
+    
     display: grid;
 
 }
@@ -112,33 +112,33 @@ header{
     height: 100px;
     width: 100px;
 }
-.footer__lista__wpp{
+#footer__lista__wpp{
     text-decoration: none;
     position: relative;
     justify-content: right;
     padding: 5px;
-    left: 1450px;
+    right:  75px;
     bottom: 5px;
     position: fixed;
     color: green;
     font-size: 1.5rem;
 }
-.footer__lista__fac{
+#footer__lista__fac{
     text-decoration: none;
     position: relative;
     justify-content: right;
     padding: 5px;
-    left: 1490px;
+    right: 38px;
     bottom: 5px;
     position: fixed;
     font-size: 1.5rem;
 }
-.footer__lista__ins{
+#footer__lista__ins{
     text-decoration: none;
     position: relative;
     justify-content: right;
     padding: 5px;
-    left: 1535px;
+    right: 5px;
     bottom: 5px;
     position: fixed;
     color: darkmagenta;
