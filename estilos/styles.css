@@ -74,10 +74,10 @@ header{
     padding: 0 1rem;
     margin: 2rem auto;
     max-width: 1200px;
-
+    z-index: 2;
 }
 #footer{
-    display: flex;
+    
     display: grid;
 
 }
@@ -117,7 +117,7 @@ header{
     position: relative;
     justify-content: right;
     padding: 5px;
-    right: 75px;
+    right:  75px;
     bottom: 5px;
     position: fixed;
     color: green;
@@ -169,5 +169,9 @@ header{
 }
 
 
+
+#mainbody__header{
+    z-index: 1;
+}
 
 
