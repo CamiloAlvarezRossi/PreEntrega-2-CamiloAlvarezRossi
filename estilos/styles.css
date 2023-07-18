@@ -74,7 +74,7 @@ header{
     padding: 0 1rem;
     margin: 2rem auto;
     max-width: 1200px;
-
+    z-index: 2;
 }
 #footer{
     display: flex;
@@ -170,5 +170,8 @@ header{
 
 
 
+#mainbody__header{
+    z-index: 1;
+}
 
 
