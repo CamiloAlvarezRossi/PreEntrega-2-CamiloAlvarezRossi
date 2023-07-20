@@ -1,0 +1,142 @@
+#mainbody{
+    flex: wrap;
+}
+
+.header__etiquetas{
+    @include flex(none, all 0.5s ease, right, null, absolute);
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    list-style-type: none;
+    padding: $padding-header;
+    top: 0px;
+    right: 20px;
+    border: 1px;
+    &__menu{
+        @include flex(none, all 0.5s ease, null, null, null);
+        padding: $padding-header;
+        color: $link-head;
+        padding-top: $padding-top-header;
+        &:hover{
+            color: $hover-link;
+            border-color: $hover-link;
+        }
+    }
+    &__nosotros{
+        @include flex(none, all 0.5s ease, null, null, null);
+        padding: $padding-header;
+        color: $link-head;
+        padding-top: $padding-top-header;
+        &:hover{
+            color: $hover-link;
+            border-color: $hover-link;
+        }
+    }
+    &__contacto{
+        @include flex(none, all 0.5s ease, null, null, null);
+        padding: $padding-header;
+        color: $link-head;
+        padding-top: $padding-top-header;
+        &:hover{
+            color: $hover-link;
+            border-color: $hover-link;
+        }
+    }
+    &__locales{
+        @include flex(none, all 0.5s ease, null, null, null);
+        padding: $padding-header;
+        color: $link-head;
+        padding-top: $padding-top-header;
+        &:hover{
+            color: $hover-link;
+            border-color: $hover-link;
+        }
+    }
+}
+
+header{
+    background-image: url(../img/fondo\ header.jpg);
+    background-attachment: fixed;
+    position: sticky;
+    display: flex;
+    top: 0px;
+}
+
+#banner{
+    padding: 0 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+#footer{
+    display: grid;
+}
+
+.redes__lista{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer__lista__red{
+    @include flex(none, null, right, null, relative);
+    padding: $padding-redes;
+    left: 1450px;
+    bottom: 370px;
+}
+
+.footer__parrafo{
+    @include flex(null, null, center, null, null);
+    font-size: $primal-font;
+}
+
+#datos{
+    @include center
+}
+
+.datos__img{
+    display: flex;
+    padding: 10px;
+    @include sizes(100px, 100px)
+}
+
+#footer__lista{
+    &__wpp{
+        @include flex(none, null, right, null, fixed);
+        padding: $padding-redes;
+        right: 75px;
+        bottom: $bottom-redes;
+        font-size: $primal-font;
+        color: green;
+    }
+    &__fac{
+        @include flex(none, null, right, null, fixed);
+        padding: $padding-redes;
+        bottom: $bottom-redes;
+        font-size: $primal-font;
+        right: 38px;
+    }
+    &__ins{
+        @include flex(none, null, right, null, fixed);
+        padding: $padding-redes;
+        bottom: $bottom-redes;
+        font-size: $primal-font;
+        color: darkmagenta;
+        right: 5px;
+    }
+}
+
+.datos__parrafo{
+    font-size: 2rem;
+    text-justify: distribute;
+}
+
+.ubicacion-mail{
+    font-size: $primal-font;
+}
+
+#mainbody__header{
+    z-index: 1;
+}
+

@@ -1,0 +1,19 @@
+@mixin flex($decoration, $transition, $justify, $align, $position) {
+    display: flex;
+    text-decoration: $decoration;
+    transition: $transition;
+    justify-content: $justify;
+    align-items: $align;
+    position: $position;
+}
+
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

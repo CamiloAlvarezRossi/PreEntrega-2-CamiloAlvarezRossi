@@ -1,0 +1,12 @@
+@import "./utilities/variables";
+@import "./utilities/colors";
+@import "./utilities/mixins";
+@import "./utilities/_maps.scss";
+
+
+@import "./globals/reset";
+
+@import "./views/home";
+@import "./views/menu";
+
+@import "./components/links"
